@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE ListaCursos SYSTEM "ListaCursos.dtd">
+
+<ListaCursos>
+    <Curso>
+        <Alumno DNI="123" Nombre="Carlos" PrimerApellido="Henao" SegundoApellido="Lopez">
+            <ListaAsignaturas>
+                <Asignatura Codigo="1">
+                    <Nombre>Matematicas</Nombre>
+                    <Profesor NRP="A2" Nombre="Jose" PrimerApellido="Alzate" SegundoApellido="Perez"></Profesor>
+                </Asignatura>
+            </ListaAsignaturas>
+        </Alumno>
+        <Alumno DNI="456" Nombre="Maria" PrimerApellido="Cano">
+            <ListaAsignaturas>
+                <Asignatura Codigo="2">
+                    <Nombre>Ingles</Nombre>
+                    <Profesor NRP="A4" Nombre="Olga" PrimerApellido="Torres" SegundoApellido="Sanchez"></Profesor>
+                </Asignatura>
+            </ListaAsignaturas>
+        </Alumno>
+        <Alumno DNI="789" Nombre="Marcos" PrimerApellido="Velez" SegundoApellido="Piedrahita">
+            <ListaAsignaturas>
+                <Asignatura Codigo="3">
+                    <Nombre>Ciencias sociales</Nombre>
+                    <Profesor NRP="A3" Nombre="Francisco" PrimerApellido="Gil"></Profesor>
+                </Asignatura>
+            </ListaAsignaturas>
+        </Alumno>
+    </Curso>
+</ListaCursos>
