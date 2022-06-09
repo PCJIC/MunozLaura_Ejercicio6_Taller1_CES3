@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ListaCursos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Alumno">
+                    <xs:complexType>
+                        <xs:attribute name="DNI"></xs:attribute>
+                        <xs:attribute name="Nombre"></xs:attribute>
+                        <xs:attribute name="PrimerApellido"></xs:attribute>
+                        <xs:attribute name="SegundoApellido"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
